@@ -1,0 +1,33 @@
+#bg{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 25%;
+    height: 50%;
+    background-color: bisque;
+    border: 2px solid black ;
+    border-radius: 15px;
+    transition: 2s;
+    color: transparent;
+}
+#bg:hover {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 40%;
+    color: black;
+}
+#img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transition: 2s;
+}
+#img:hover{
+    rotate: -80deg;
+}
+#prince{
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
